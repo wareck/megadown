@@ -1,5 +1,5 @@
 # badown (renamed megadown in my folder)
-forked from https://github.com/stck-lzm/badown)
+# forked from https://github.com/stck-lzm/badown)
 
 The name is a short for bash-downloader.
 This script can download files from mediafire, zippyshare & mega (file & folder).
