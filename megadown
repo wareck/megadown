@@ -71,10 +71,10 @@ function mega_link_vars {
    fi
 }
 function file_downdec {
-   echo $1
-   echo $2
-   echo $3
-   echo $4
+   #echo $1
+   #echo $2
+   #echo $3
+   #echo $4
    wget -O "$2".tmp  $speed -q --show-progress "$1"
    cat "$2.tmp" \
       | openssl enc -d -aes-128-ctr -K $3 -iv $4 \
